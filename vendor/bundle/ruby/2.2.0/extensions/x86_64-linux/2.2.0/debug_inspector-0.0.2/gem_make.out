@@ -1,0 +1,11 @@
+/usr/bin/ruby2.2 -r ./siteconf20150818-27800-t25v3d.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20150818-27800-in0p43
